@@ -1,0 +1,143 @@
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#1e40af',
+    'primaryTextColor': '#ffffff',
+    'primaryBorderColor': '#1d4ed8',
+    'lineColor': '#374151',
+    'secondaryColor': '#dbeafe',
+    'tertiaryColor': '#bfdbfe'
+  }
+}}%%
+
+erDiagram
+    %% Core Entities
+    PROTEIN {
+        string uniprotId PK "🔑 Primary Key"
+        string name "Protein Name"
+        text sequence "Amino Acid Sequence"
+        string organism "Source Organism"
+        datetime created_at "Creation Timestamp"
+    }
+    
+    CENTRALITY_DATA {
+        string uniprotId PK "🔑 Primary Key"
+        float betweenness "Betweenness Centrality"
+        float betweenness_weight "Weighted Betweenness"
+        float closeness "Closeness Centrality"
+        float closeness_weight "Weighted Closeness"
+        float degree "Degree Centrality"
+        float degree_weight "Weighted Degree"
+        float eigenvector "Eigenvector Centrality"
+        float eigenvector_weight "Weighted Eigenvector"
+        int label "Cancer Label (0/1)"
+    }
+    
+    DRUG {
+        string drugId PK "🔑 DrugBank ID"
+        string name "Drug Name"
+        text description "Drug Description"
+        int pubchemCid "PubChem Compound ID"
+        string status "Approval Status"
+        datetime updated_at "Last Update"
+    }
+    
+    DRUG_PROTEIN_MAPPING {
+        string uniprotId PK "🔑 Protein ID"
+        string drugIds "Semicolon-separated Drug IDs"
+        float confidence "Mapping Confidence"
+        string source "Data Source"
+    }
+    
+    %% Chemical Data
+    PUBCHEM_DATA {
+        int cid PK "🔑 Compound ID"
+        string molecularFormula "Chemical Formula"
+        float molecularWeight "Molecular Weight (g/mol)"
+        float logP "Partition Coefficient"
+        int hBondAcceptors "H-Bond Acceptors"
+        int hBondDonors "H-Bond Donors"
+        text smiles "SMILES Notation"
+        text inchi "InChI Identifier"
+        text inchiKey "InChI Key"
+        float complexity "Compound Complexity"
+        float polarSurfaceArea "Polar Surface Area"
+        int rotatableBonds "Rotatable Bonds"
+    }
+    
+    %% Prediction Results
+    PREDICTION_RESULT {
+        int id PK "🔑 Auto ID"
+        string uniprotId FK "Protein Reference"
+        string prediction "POSITIVE/NEGATIVE"
+        float probability "Prediction Confidence"
+        json features "Extracted Features"
+        datetime timestamp "Analysis Time"
+        string session_id "User Session"
+    }
+    
+    %% Model Performance
+    MODEL_METRICS {
+        int id PK "🔑 Auto ID"
+        float accuracy "Model Accuracy"
+        float f1Score "F1 Score"
+        float rocAuc "ROC AUC Score"
+        text confusionMatrix "Base64 Image"
+        text rocCurve "Base64 Image"
+        text precisionRecallCurve "Base64 Image"
+        datetime timestamp "Evaluation Time"
+        string model_version "Model Version"
+    }
+    
+    %% Research Data
+    RESEARCH_ARTICLE {
+        string pmid PK "🔑 PubMed ID"
+        string title "Article Title"
+        text abstract "Article Abstract"
+        string journal "Journal Name"
+        date publishDate "Publication Date"
+        string doi "Digital Object Identifier"
+        json authors "Author List"
+    }
+    
+    CLINICAL_TRIAL {
+        string nctId PK "🔑 NCT Number"
+        string title "Trial Title"
+        string phase "Trial Phase"
+        string status "Current Status"
+        text description "Trial Description"
+        date startDate "Start Date"
+        date completionDate "Completion Date"
+        json conditions "Medical Conditions"
+        json interventions "Trial Interventions"
+    }
+    
+    %% Junction Tables
+    DRUG_ARTICLE {
+        string drugId FK "Drug Reference"
+        string pmid FK "Article Reference"
+        float relevanceScore "Relevance Score"
+        string extractedBy "Extraction Method"
+    }
+    
+    DRUG_TRIAL {
+        string drugId FK "Drug Reference"
+        string nctId FK "Trial Reference"
+        string role "Drug Role in Trial"
+        string phase "Trial Phase"
+    }
+    
+    %% Relationships
+    PROTEIN ||--|| CENTRALITY_DATA : "has centrality metrics"
+    PROTEIN ||--o{ DRUG_PROTEIN_MAPPING : "maps to drugs"
+    PROTEIN ||--o{ PREDICTION_RESULT : "generates predictions"
+    
+    DRUG ||--|| PUBCHEM_DATA : "has chemical data"
+    DRUG ||--o{ DRUG_ARTICLE : "referenced in"
+    DRUG ||--o{ DRUG_TRIAL : "tested in"
+    
+    RESEARCH_ARTICLE ||--o{ DRUG_ARTICLE : "mentions drugs"
+    CLINICAL_TRIAL ||--o{ DRUG_TRIAL : "tests drugs"
+    
+    %% Styling
+    %%{wrap}%%

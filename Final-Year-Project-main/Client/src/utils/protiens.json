@@ -1,0 +1,1442 @@
+[
+    {
+      "Protein": "Coagulation factor XIII A chain",
+      "uniprotId": "P00488",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Tyrosine-protein kinase ABL1",
+      "uniprotId": "P00519",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Coagulation factor VIII",
+      "uniprotId": "P00451",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Cystine/glutamate transporter",
+      "uniprotId": "Q9UPY5",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Cystinosin",
+      "uniprotId": "O60931",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] iron-sulfur protein 8, mitochondrial",
+      "uniprotId": "O00217",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Prothrombin",
+      "uniprotId": "P00734",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Group 10 secretory phospholipase A2",
+      "uniprotId": "O15496",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Hypoxanthine-guanine phosphoribosyltransferase",
+      "uniprotId": "P00492",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 10, mitochondrial",
+      "uniprotId": "O95299",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] iron-sulfur protein 5",
+      "uniprotId": "O43920",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] iron-sulfur protein 6, mitochondrial",
+      "uniprotId": "O75380",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Organic cation/carnitine transporter 2",
+      "uniprotId": "O76082",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Phospholipid-transporting ATPase ABCA1",
+      "uniprotId": "O95477",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH-cytochrome b5 reductase 3",
+      "uniprotId": "P00387",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Cytochrome c oxidase subunit NDUFA4",
+      "uniprotId": "O00483",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] 1 subunit C2",
+      "uniprotId": "O95298",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Glutamate dehydrogenase 1, mitochondrial",
+      "uniprotId": "P00367",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "cGMP-specific 3',5'-cyclic phosphodiesterase",
+      "uniprotId": "O76074",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] iron-sulfur protein 3, mitochondrial",
+      "uniprotId": "O75489",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Potassium channel subfamily K member 2",
+      "uniprotId": "O95069",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Plasminogen",
+      "uniprotId": "P00747",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Coagulation factor X",
+      "uniprotId": "P00742",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 1",
+      "uniprotId": "O15239",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 5, mitochondrial",
+      "uniprotId": "O43674",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 10",
+      "uniprotId": "O96000",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Purine nucleoside phosphorylase",
+      "uniprotId": "P00491",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "5'-AMP-activated protein kinase subunit beta-1",
+      "uniprotId": "Q9Y478",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Carbonic anhydrase 1",
+      "uniprotId": "P00915",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Renin",
+      "uniprotId": "P00797",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Antithrombin-III",
+      "uniprotId": "P01008",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 3",
+      "uniprotId": "O43676",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 4",
+      "uniprotId": "O95168",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Ornithine transcarbamylase, mitochondrial",
+      "uniprotId": "P00480",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] iron-sulfur protein 7, mitochondrial",
+      "uniprotId": "O75251",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Retinol-binding protein 4",
+      "uniprotId": "P02753",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Carbonic anhydrase 2",
+      "uniprotId": "P00918",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Dihydrofolate reductase",
+      "uniprotId": "P00374",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Cytochrome c oxidase subunit 1",
+      "uniprotId": "P00395",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Transthyretin",
+      "uniprotId": "P02766",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 1",
+      "uniprotId": "O75438",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Voltage-dependent P/Q-type calcium channel subunit alpha-1A",
+      "uniprotId": "O00555",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "ALK tyrosine kinase receptor",
+      "uniprotId": "Q9UM73",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Coagulation factor IX",
+      "uniprotId": "P00740",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 6",
+      "uniprotId": "O95139",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Glutamate receptor ionotropic, NMDA 2D",
+      "uniprotId": "O15399",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Ferritin heavy chain",
+      "uniprotId": "P02794",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "All-trans-retinol dehydrogenase [NAD(+)] ADH1B",
+      "uniprotId": "P00325",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 7",
+      "uniprotId": "O95182",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Glycine receptor subunit alpha-3",
+      "uniprotId": "O75311",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Intermediate conductance calcium-activated potassium channel protein 4",
+      "uniprotId": "O15554",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "L-lactate dehydrogenase A chain",
+      "uniprotId": "P00338",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Monocarboxylate transporter 2",
+      "uniprotId": "O60669",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial",
+      "uniprotId": "O15528",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Alcohol dehydrogenase 1C",
+      "uniprotId": "P00326",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "ATP-binding cassette sub-family C member 9",
+      "uniprotId": "O60706",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Voltage-dependent T-type calcium channel subunit alpha-1G",
+      "uniprotId": "O43497",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Low-density lipoprotein receptor",
+      "uniprotId": "P01130",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] iron-sulfur protein 4, mitochondrial",
+      "uniprotId": "O43181",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Serotransferrin",
+      "uniprotId": "P02787",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Retinal dehydrogenase 2",
+      "uniprotId": "O94788",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 13",
+      "uniprotId": "Q9P0J0",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Albumin",
+      "uniprotId": "P02768",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Chromodomain-helicase-DNA-binding protein 1",
+      "uniprotId": "O14646",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Glutamate receptor ionotropic, NMDA 3B",
+      "uniprotId": "O60391",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Fibrinogen alpha chain",
+      "uniprotId": "P02671",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Acyl carrier protein, mitochondrial",
+      "uniprotId": "O14561",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 2",
+      "uniprotId": "O43678",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Aldehyde dehydrogenase 1A1",
+      "uniprotId": "P00352",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Mitochondrial carnitine/acylcarnitine carrier protein",
+      "uniprotId": "O43772",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "UDP-glucose 6-dehydrogenase",
+      "uniprotId": "O60701",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Glutathione reductase, mitochondrial",
+      "uniprotId": "P00390",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Interleukin-2 receptor subunit alpha",
+      "uniprotId": "P01589",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Argininosuccinate synthase",
+      "uniprotId": "P00966",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 8, mitochondrial",
+      "uniprotId": "O95169",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 3",
+      "uniprotId": "O95167",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Free fatty acid receptor 1",
+      "uniprotId": "O14842",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Acetyl-CoA carboxylase 2",
+      "uniprotId": "O00763",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Bile salt export pump",
+      "uniprotId": "O95342",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Tumor necrosis factor",
+      "uniprotId": "P01375",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Branched-chain-amino-acid aminotransferase, mitochondrial",
+      "uniprotId": "O15382",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NADH dehydrogenase [ubiquinone] iron-sulfur protein 2, mitochondrial",
+      "uniprotId": "O75306",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Oxytocin-neurophysin 1",
+      "uniprotId": "P01178",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Phenylalanine-4-hydroxylase",
+      "uniprotId": "P00439",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "N(G),N(G)-dimethylarginine dimethylaminohydrolase 1",
+      "uniprotId": "O94760",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Epidermal growth factor receptor",
+      "uniprotId": "P00533",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "5'-AMP-activated protein kinase subunit beta-2",
+      "uniprotId": "O43741",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Sphingosine-1-phosphate lyase 1",
+      "uniprotId": "O95470",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Glutaminase kidney isoform, mitochondrial",
+      "uniprotId": "O94925",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Metabotropic glutamate receptor 8",
+      "uniprotId": "O00222",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Maltase-glucoamylase",
+      "uniprotId": "O43451",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Complement C5",
+      "uniprotId": "P01031",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Perilipin-3",
+      "uniprotId": "O60664",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Receptor activity-modifying protein 1",
+      "uniprotId": "O60894",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Receptor activity-modifying protein 2",
+      "uniprotId": "O60895",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Receptor activity-modifying protein 3",
+      "uniprotId": "O60896",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Voltage-dependent T-type calcium channel subunit alpha-1H",
+      "uniprotId": "O95180",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Urokinase-type plasminogen activator",
+      "uniprotId": "P00749",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Potassium voltage-gated channel subfamily KQT member 2",
+      "uniprotId": "O43526",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Low affinity immunoglobulin gamma Fc region receptor III-B",
+      "uniprotId": "O75015",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Alpha-2-macroglobulin",
+      "uniprotId": "P01023",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Apolipoprotein A-II",
+      "uniprotId": "P02652",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "C-X-C motif chemokine 10",
+      "uniprotId": "P02778",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Cubilin",
+      "uniprotId": "O60494",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Interferon gamma",
+      "uniprotId": "P01579",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Pro-opiomelanocortin",
+      "uniprotId": "P01189",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Alpha-1-antitrypsin",
+      "uniprotId": "P01009",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Pro-epidermal growth factor",
+      "uniprotId": "P01133",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Nuclear receptor subfamily 1 group I member 2",
+      "uniprotId": "O75469",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Apoptosis-inducing factor 1, mitochondrial",
+      "uniprotId": "O95831",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Transforming growth factor beta-1 proprotein",
+      "uniprotId": "P01137",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Aurora kinase A",
+      "uniprotId": "O14965",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Lactotransferrin",
+      "uniprotId": "P02788",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Long-chain-fatty-acid--CoA ligase 4",
+      "uniprotId": "O60488",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Kininogen-1",
+      "uniprotId": "P01042",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Solute carrier organic anion transporter family member 2B1",
+      "uniprotId": "O94956",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Interleukin-1 beta",
+      "uniprotId": "P01584",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Angiotensinogen",
+      "uniprotId": "P01019",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Lymphotoxin-alpha",
+      "uniprotId": "P01374",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Tissue-type plasminogen activator",
+      "uniprotId": "P00750",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Fatty acid CoA ligase Acsl3",
+      "uniprotId": "O95573",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Beta-nerve growth factor",
+      "uniprotId": "P01138",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Calcitonin gene-related peptide 1",
+      "uniprotId": "P06881",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Apolipoprotein E",
+      "uniprotId": "P02649",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Transient receptor potential cation channel subfamily A member 1",
+      "uniprotId": "O75762",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Protein c-Fos",
+      "uniprotId": "P01100",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Ceruloplasmin",
+      "uniprotId": "P00450",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Vitamin D-binding protein",
+      "uniprotId": "P02774",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Inhibitor of nuclear factor kappa-B kinase subunit beta",
+      "uniprotId": "O14920",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Toll-like receptor 2",
+      "uniprotId": "O60603",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Hematopoietic prostaglandin D synthase",
+      "uniprotId": "O60760",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Toll-like receptor 9",
+      "uniprotId": "Q9NR96",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Cytochrome b5",
+      "uniprotId": "P00167",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Fibronectin",
+      "uniprotId": "P02751",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "3-phosphoinositide-dependent protein kinase 1",
+      "uniprotId": "O15530",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Serum amyloid P-component",
+      "uniprotId": "P02743",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Isocitrate dehydrogenase [NADP] cytoplasmic",
+      "uniprotId": "O75874",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Sulfotransferase 2B1",
+      "uniprotId": "O00204",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Carbonic anhydrase 12",
+      "uniprotId": "O43570",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Suppressor of tumorigenicity 14 protein",
+      "uniprotId": "Q9Y5Y6",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Complement factor B",
+      "uniprotId": "P00751",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Fibrinogen beta chain",
+      "uniprotId": "P02675",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Fibrinogen gamma chain",
+      "uniprotId": "P02679",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Complement C1r subcomponent",
+      "uniprotId": "P00736",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Complement C1q subcomponent subunit A",
+      "uniprotId": "P02745",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Complement C1q subcomponent subunit C",
+      "uniprotId": "P02747",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Neuropilin-1",
+      "uniprotId": "O14786",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Collagen alpha-1(III) chain",
+      "uniprotId": "P02461",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Collagen alpha-1(II) chain",
+      "uniprotId": "P02458",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Phospholipase D2",
+      "uniprotId": "O14939",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Fatty-acid amide hydrolase 1",
+      "uniprotId": "O00519",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Gamma-butyrobetaine dioxygenase",
+      "uniprotId": "O75936",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Adenosine deaminase",
+      "uniprotId": "P00813",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Beta-1,4-galactosyltransferase 2",
+      "uniprotId": "O60909",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Excitatory amino acid transporter 5",
+      "uniprotId": "O00341",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Glutamate receptor ionotropic, delta-2",
+      "uniprotId": "O43424",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Protein-arginine deiminase type-3",
+      "uniprotId": "Q9ULW8",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Gamma-aminobutyric acid type B receptor subunit 2",
+      "uniprotId": "O75899",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Voltage-dependent L-type calcium channel subunit beta-4",
+      "uniprotId": "O00305",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Voltage-dependent L-type calcium channel subunit alpha-1F",
+      "uniprotId": "O60840",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Histone deacetylase 3",
+      "uniprotId": "O15379",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Phosphatidylinositol 3-kinase regulatory subunit beta",
+      "uniprotId": "O00459",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Superoxide dismutase [Cu-Zn]",
+      "uniprotId": "P00441",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Potassium voltage-gated channel subfamily KQT member 3",
+      "uniprotId": "O43525",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Potassium voltage-gated channel subfamily KQT member 5",
+      "uniprotId": "Q9NR82",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform",
+      "uniprotId": "O00329",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Tyrosine-protein kinase JAK2",
+      "uniprotId": "O60674",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "HLA class II histocompatibility antigen, DRB1 beta chain",
+      "uniprotId": "P04229",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Toll-like receptor 4",
+      "uniprotId": "O00206",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Telomerase reverse transcriptase",
+      "uniprotId": "O14746",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "tRNA (cytosine(38)-C(5))-methyltransferase",
+      "uniprotId": "O14717",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Beta-2-glycoprotein 1",
+      "uniprotId": "P02749",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Serine/threonine-protein kinase Chk2",
+      "uniprotId": "O96017",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Serine/threonine-protein kinase Chk1",
+      "uniprotId": "O14757",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Cytochrome c oxidase subunit 2",
+      "uniprotId": "P00403",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Mitogen-activated protein kinase 13",
+      "uniprotId": "O15264",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Baculoviral IAP repeat-containing protein 5",
+      "uniprotId": "O15392",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Apolipoprotein A-I",
+      "uniprotId": "P02647",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Complement C3",
+      "uniprotId": "P01024",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Pro-neuropeptide Y",
+      "uniprotId": "P01303",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Cytochrome P450 26A1",
+      "uniprotId": "O43174",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "T-cell surface glycoprotein CD4",
+      "uniprotId": "P01730",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Insulin",
+      "uniprotId": "P01308",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Tumor necrosis factor ligand superfamily member 11",
+      "uniprotId": "O14788",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Motilin receptor",
+      "uniprotId": "O43193",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "UDP-glucuronosyltransferase 1A9",
+      "uniprotId": "O60656",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Troponin C, skeletal muscle",
+      "uniprotId": "P02585",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Geranylgeranyl pyrophosphate synthase",
+      "uniprotId": "O95749",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Potassium channel subfamily K member 3",
+      "uniprotId": "O14649",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Potassium channel subfamily K member 9",
+      "uniprotId": "Q9NPC2",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Gamma-aminobutyric acid receptor subunit pi",
+      "uniprotId": "O00591",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Gamma-aminobutyric acid receptor subunit delta",
+      "uniprotId": "O14764",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Gamma-aminobutyric acid receptor subunit rho-3",
+      "uniprotId": "A8MPY1",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Sodium channel regulatory subunit beta-2",
+      "uniprotId": "O60939",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Sodium channel regulatory subunit beta-3",
+      "uniprotId": "Q9NY72",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "ATP-binding cassette sub-family C member 5",
+      "uniprotId": "O15440",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Adenylate cyclase type 5",
+      "uniprotId": "O95622",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Death-associated protein kinase 3",
+      "uniprotId": "O43293",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Serine/threonine-protein kinase/endoribonuclease IRE1",
+      "uniprotId": "O75460",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Cytochrome c oxidase subunit 3",
+      "uniprotId": "P00414",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "HLA class I histocompatibility antigen, B alpha chain",
+      "uniprotId": "P03989",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Serine/threonine-protein kinase Sgk1",
+      "uniprotId": "O00141",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Rho-associated protein kinase 2",
+      "uniprotId": "O75116",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Aldo-keto reductase family 1 member B10",
+      "uniprotId": "O60218",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Hypocretin neuropeptide precursor",
+      "uniprotId": "O43612",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "HLA class II histocompatibility antigen, DQ beta 1 chain",
+      "uniprotId": "P01920",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Ribosomal protein S6 kinase alpha-4",
+      "uniprotId": "O75676",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Inhibitor of nuclear factor kappa-B kinase subunit alpha",
+      "uniprotId": "O15111",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Acetylcholine receptor subunit alpha",
+      "uniprotId": "P02708",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Coagulation factor XII",
+      "uniprotId": "P00748",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Myc proto-oncogene protein",
+      "uniprotId": "P01106",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Hyaluronan mediated motility receptor",
+      "uniprotId": "O75330",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Interleukin-1 alpha",
+      "uniprotId": "P01583",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Metallothionein-2",
+      "uniprotId": "P02795",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "HLA class II histocompatibility antigen, DR alpha chain",
+      "uniprotId": "P01903",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "HLA class II histocompatibility antigen, DRB1 beta chain",
+      "uniprotId": "Q30167",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "HLA class II histocompatibility antigen, DRB1 beta chain",
+      "uniprotId": "P20039",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "HLA class II histocompatibility antigen, DRB1 beta chain",
+      "uniprotId": "Q95IE3",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "HLA class II histocompatibility antigen, DRB1 beta chain",
+      "uniprotId": "Q5Y7A7",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "HLA class II histocompatibility antigen, DRB1 beta chain",
+      "uniprotId": "Q9GIY3",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "HLA class II histocompatibility antigen, DRB1 beta chain",
+      "uniprotId": "P01911",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "HLA class II histocompatibility antigen, DRB1 beta chain",
+      "uniprotId": "Q29974",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "HLA class II histocompatibility antigen, DRB1 beta chain",
+      "uniprotId": "P01912",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "HLA class II histocompatibility antigen, DRB1 beta chain",
+      "uniprotId": "P13760",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "HLA class II histocompatibility antigen, DRB1 beta chain",
+      "uniprotId": "P13761",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "HLA class II histocompatibility antigen, DRB1 beta chain",
+      "uniprotId": "Q30134",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "HLA class II histocompatibility antigen, DRB1 beta chain",
+      "uniprotId": "Q9TQE0",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "5-hydroxytryptamine receptor 3B",
+      "uniprotId": "O95264",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "5-hydroxytryptamine receptor 3E",
+      "uniprotId": "A5X5Y0",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Nuclear factor of activated T-cells, cytoplasmic 1",
+      "uniprotId": "O95644",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Membrane-associated progesterone receptor component 1",
+      "uniprotId": "O00264",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Voltage-dependent calcium channel gamma-3 subunit",
+      "uniprotId": "O60359",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "cGMP-dependent 3',5'-cyclic phosphodiesterase",
+      "uniprotId": "O00408",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "High affinity cAMP-specific and IBMX-insensitive 3',5'-cyclic phosphodiesterase 8A",
+      "uniprotId": "O60658",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "High affinity cAMP-specific and IBMX-insensitive 3',5'-cyclic phosphodiesterase 8B",
+      "uniprotId": "O95263",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "High affinity cGMP-specific 3',5'-cyclic phosphodiesterase 9A",
+      "uniprotId": "O76083",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Steroid hormone receptor ERR2",
+      "uniprotId": "O95718",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Voltage-gated delayed rectifier potassium channel KCNH1",
+      "uniprotId": "O95259",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Fibroblast growth factor 19",
+      "uniprotId": "O95750",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Orexin/Hypocretin receptor type 1",
+      "uniprotId": "O43613",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Orexin receptor type 2",
+      "uniprotId": "O43614",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Transferrin receptor protein 1",
+      "uniprotId": "P02786",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Apolipoprotein C-II",
+      "uniprotId": "P02655",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Apolipoprotein C-III",
+      "uniprotId": "P02656",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Tumor protein p73",
+      "uniprotId": "O15350",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Complement component C9",
+      "uniprotId": "P02748",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Alpha-1-antichymotrypsin",
+      "uniprotId": "P01011",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "HLA class I histocompatibility antigen, B alpha chain",
+      "uniprotId": "P18465",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Serine/threonine-protein kinase 38-like",
+      "uniprotId": "Q9Y2H1",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Serine/threonine-protein kinase TBK1",
+      "uniprotId": "Q9UHD2",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "TRAF2 and NCK-interacting protein kinase",
+      "uniprotId": "Q9UKE5",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Serine/threonine-protein kinase DCLK1",
+      "uniprotId": "O15075",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Ephrin type-B receptor 6",
+      "uniprotId": "O15197",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Cyclin-G-associated kinase",
+      "uniprotId": "O14976",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Mitogen-activated protein kinase kinase kinase 13",
+      "uniprotId": "O43283",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Mitogen-activated protein kinase kinase kinase kinase 4",
+      "uniprotId": "O95819",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Serine/threonine-protein kinase MARK1",
+      "uniprotId": "Q9P0L2",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Muscle, skeletal receptor tyrosine-protein kinase",
+      "uniprotId": "O15146",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "NUAK family SNF1-like kinase 1",
+      "uniprotId": "O60285",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Serine/threonine-protein kinase PAK 3",
+      "uniprotId": "O75914",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Serine/threonine-protein kinase PAK 4",
+      "uniprotId": "O96013",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Serine/threonine-protein kinase PAK 5",
+      "uniprotId": "Q9P286",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Phosphatidylinositol 4-phosphate 3-kinase C2 domain-containing subunit beta",
+      "uniprotId": "O00750",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Phosphatidylinositol 3-kinase C2 domain-containing subunit gamma",
+      "uniprotId": "O75747",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Receptor-interacting serine/threonine-protein kinase 2",
+      "uniprotId": "O43353",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Serine/threonine-protein kinase 10",
+      "uniprotId": "O94804",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Serine/threonine-protein kinase 16",
+      "uniprotId": "O75716",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Gastrin",
+      "uniprotId": "P01350",
+      "Result": "Positive"
+    },
+    {
+      "Protein": "Exportin-1",
+      "uniprotId": "O14980",
+      "Result": "Positive"
+    },
+    {
+        "Protein": "Small integral membrane protein 26",
+        "uniprotId": "A0A096LP01",
+        "Result": "Negative"
+      },
+      {
+        "Protein": "RNA-binding protein MEX3A",
+        "uniprotId": "A1L020",
+        "Result": "Negative"
+      },
+      {
+        "Protein": "G antigen 12B/C/D/E",
+        "uniprotId": "A1L429",
+        "Result": "Negative"
+      },
+      {
+        "Protein": "Protein tyrosine phosphatase domain-containing protein 1",
+        "uniprotId": "A2A3K4",
+        "Result": "Negative"
+      },
+      {
+        "Protein": "BCLAF1 and THRAP3 family member 3",
+        "uniprotId": "A2AJT9",
+        "Result": "Negative"
+      },
+      {
+        "Protein": "Protein HEATR9",
+        "uniprotId": "A2RTY3",
+        "Result": "Negative"
+      },
+      {
+        "Protein": "Fucose mutarotase",
+        "uniprotId": "A2VDF0",
+        "Result": "Negative"
+      },
+      {
+        "Protein": "Protein strawberry notch homolog 1",
+        "uniprotId": "A3KN83",
+        "Result": "Negative"
+      },
+      {
+        "Protein": "Myotubularin-related protein 11",
+        "uniprotId": "A4FU01",
+        "Result": "Negative"
+      },
+      {
+        "Protein": "Regulator of G-protein signaling protein-like",
+        "uniprotId": "A5PLK6",
+        "Result": "Negative"
+      },
+      {
+        "Protein": "G antigen 12H",
+        "uniprotId": "A6NDE8",
+        "Result": "Negative"
+      },
+      {
+        "Protein": "G antigen 12J",
+        "uniprotId": "A6NER3",
+        "Result": "Negative"
+      },
+      {
+        "Protein": "Nuclear protein 2",
+        "uniprotId": "A6NF83",
+        "Result": "Negative"
+      },
+      {
+        "Protein": "Zinc finger protein 316",
+        "uniprotId": "A6NFI3",
+        "Result": "Negative"
+      },
+      {
+        "Protein": "WAS/WASL-interacting protein family member 3",
+        "uniprotId": "A6NGB9",
+        "Result": "Negative"
+      },
+      {
+        "Protein": "G antigen 10",
+        "uniprotId": "A6NGK3",
+        "Result": "Negative"
+      },
+      {
+        "Protein": "Homeobox protein HMX3",
+        "uniprotId": "A6NHT5",
+        "Result": "Negative"
+      },
+      {
+        "Protein": "Coiled-coil domain-containing protein 85C",
+        "uniprotId": "A6NKD9",
+        "Result": "Negative"
+      },
+      {
+        "Protein": "RanBP2-like and GRIP domain-containing protein 3",
+        "uniprotId": "A6NKT7",
+        "Result": "Negative"
+      }
+  ]

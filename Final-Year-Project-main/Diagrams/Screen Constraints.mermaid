@@ -1,0 +1,84 @@
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#1e40af',
+    'primaryTextColor': '#ffffff',
+    'primaryBorderColor': '#1d4ed8',
+    'lineColor': '#374151',
+    'secondaryColor': '#dbeafe',
+    'tertiaryColor': '#bfdbfe'
+  }
+}}%%
+
+graph TB
+    %% Styling
+    classDef header fill:#1e40af,stroke:#1d4ed8,stroke-width:3px,color:#ffffff,font-weight:bold
+    classDef search fill:#3b82f6,stroke:#2563eb,stroke-width:2px,color:#ffffff,font-weight:bold
+    classDef results fill:#10b981,stroke:#059669,stroke-width:2px,color:#ffffff,font-weight:bold
+    classDef positive fill:#dc2626,stroke:#b91c1c,stroke-width:2px,color:#ffffff,font-weight:bold
+    classDef metrics fill:#f59e0b,stroke:#d97706,stroke-width:2px,color:#ffffff,font-weight:bold
+    classDef responsive fill:#8b5cf6,stroke:#7c3aed,stroke-width:2px,color:#ffffff,font-weight:bold
+    
+    subgraph "📱 Main Application Container"
+        Header["🧬 Header Section<br/>• DNA Animation Background<br/>• Gradient: Teal → Indigo<br/>• Title: 'Essential Protein Identification'<br/>• Height: 200px"]:::header
+        
+        subgraph "🔍 Protein Selection Interface"
+            Dropdown["📋 Protein Dropdown<br/>• Width: 320px<br/>• Height: 80px<br/>• Max dropdown: 240px<br/>• Search functionality"]:::search
+            SearchInput["🔎 Search Input<br/>• Full width<br/>• Height: 48px<br/>• Placeholder: 'Search proteins...'<br/>• Icon: Magnifying glass"]:::search
+            SubmitBtn["🚀 Submit Button<br/>• Width: 320px<br/>• Height: 80px<br/>• Text: 'Detect Protein'<br/>• Gradient background"]:::search
+        end
+        
+        subgraph "📊 Results Display Area"
+            subgraph "✅ Negative Result Layout"
+                NegHeader["✅ Success Header<br/>• Green theme<br/>• Checkmark icon<br/>• 'Low Risk Detected'"]:::results
+                MetricsGrid["📈 Metrics Grid (3-column)<br/>• Accuracy Circle (40px radius)<br/>• F1 Score Circle (40px radius)<br/>• ROC AUC Circle (40px radius)<br/>• Animated progress"]:::metrics
+                ChartsGrid["📊 Charts Grid (3-column)<br/>• Confusion Matrix<br/>• Precision-Recall Curve<br/>• ROC Curve<br/>• Base64 images"]:::metrics
+                HealthyCell["🔬 Healthy Cell Image<br/>• Aspect ratio: 16:9<br/>• Max width: 800px<br/>• Rounded corners"]:::results
+            end
+            
+            subgraph "⚠️ Positive Result Layout"
+                PosHeader["⚠️ Alert Header<br/>• Red theme<br/>• Warning icon<br/>• 'High Risk Detected'"]:::positive
+                PosMetrics["📈 Metrics Grid (3-column)<br/>• Same as negative<br/>• Red color scheme"]:::positive
+                DrugSection["💊 Drug Repurposing Section<br/>• Expandable cards<br/>• Tabbed interface<br/>• Full width"]:::positive
+                
+                subgraph "💊 Drug Card Layout"
+                    DrugHeader["🏷️ Drug Header<br/>• Drug name & ID<br/>• Expand/collapse button<br/>• Description text"]:::positive
+                    TabNav["📑 Tab Navigation<br/>• Overview | Chemical | Research<br/>• Active state styling"]:::positive
+                    
+                    subgraph "📋 Tab Content Areas"
+                        Overview["🔬 Overview Tab<br/>• 2-column grid<br/>• Molecular structure (1:1)<br/>• Key properties list"]:::positive
+                        Chemical["🧪 Chemical Tab<br/>• Physical properties<br/>• IUPAC names<br/>• 3D viewer (16:9)"]:::positive
+                        Research["📚 Research Tab<br/>• PubMed articles list<br/>• Clinical trials list<br/>• External links"]:::positive
+                    end
+                end
+                
+                CancerCell["🦠 Cancer Cell Image<br/>• Aspect ratio: 16:9<br/>• Max width: 800px<br/>• Red border accent"]:::positive
+            end
+        end
+    end
+    
+    subgraph "📱 Responsive Constraints"
+        Mobile["📱 Mobile (320px+)<br/>• Single column<br/>• Stack vertically<br/>• Touch-friendly buttons<br/>• Collapsible sections"]:::responsive
+        Tablet["📱 Tablet (768px+)<br/>• 2-column grid<br/>• Larger touch targets<br/>• Optimized spacing"]:::responsive
+        Desktop["🖥️ Desktop (1024px+)<br/>• 3-column grid<br/>• Full feature set<br/>• Hover effects<br/>• Keyboard navigation"]:::responsive
+    end
+    
+    %% Layout Flow
+    Header --> Dropdown
+    Dropdown --> SearchInput
+    SearchInput --> SubmitBtn
+    SubmitBtn --> NegHeader
+    SubmitBtn --> PosHeader
+    
+    NegHeader --> MetricsGrid
+    MetricsGrid --> ChartsGrid
+    ChartsGrid --> HealthyCell
+    
+    PosHeader --> PosMetrics
+    PosMetrics --> DrugSection
+    DrugSection --> DrugHeader
+    DrugHeader --> TabNav
+    TabNav --> Overview
+    TabNav --> Chemical
+    TabNav --> Research
+    DrugSection --> CancerCell

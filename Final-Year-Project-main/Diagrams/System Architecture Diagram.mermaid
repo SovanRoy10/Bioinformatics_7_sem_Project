@@ -1,0 +1,82 @@
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#1e40af',
+    'primaryTextColor': '#ffffff',
+    'primaryBorderColor': '#1d4ed8',
+    'lineColor': '#374151',
+    'secondaryColor': '#dbeafe',
+    'tertiaryColor': '#bfdbfe',
+    'background': '#ffffff'
+  }
+}}%%
+
+graph TB
+    %% Styling
+    classDef frontend fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#ffffff,font-weight:bold
+    classDef api fill:#10b981,stroke:#059669,stroke-width:3px,color:#ffffff,font-weight:bold
+    classDef processing fill:#f59e0b,stroke:#d97706,stroke-width:3px,color:#ffffff,font-weight:bold
+    classDef data fill:#8b5cf6,stroke:#7c3aed,stroke-width:3px,color:#ffffff,font-weight:bold
+    classDef external fill:#ef4444,stroke:#dc2626,stroke-width:3px,color:#ffffff,font-weight:bold
+    classDef constraint fill:#6b7280,stroke:#4b5563,stroke-width:2px,color:#ffffff,font-size:12px
+
+    subgraph "🌐 Frontend Layer"
+        React["⚛️ React Web Application<br/>• TypeScript<br/>• Framer Motion<br/>• Tailwind CSS"]:::frontend
+        UI["🎨 UI Components<br/>• Protein Selection<br/>• Results Display<br/>• Drug Information"]:::frontend
+    end
+
+    subgraph "🔌 API Layer"
+        Flask["🐍 Flask REST API<br/>• /api/detect-protein<br/>• /api/model-metrics<br/>• CORS & Rate Limiting"]:::api
+    end
+
+    subgraph "⚙️ Processing Layer"
+        Feature["🧬 Feature Extraction<br/>• Pfeature Library<br/>• AAC, PCP, SER, SEP<br/>• < 10s processing"]:::processing
+        ML["🤖 ML Prediction<br/>• PyTorch Model<br/>• Binary Classification<br/>• < 2s inference"]:::processing
+        Drug["💊 Drug Repurposing<br/>• Gemini AI Integration<br/>• Multi-API Aggregation"]:::processing
+    end
+
+    subgraph "💾 Data Layer"
+        ProteinDB["🧬 Protein Database<br/>• ~50,000 entries<br/>• UniProt IDs<br/>• Sequences"]:::data
+        CentralityDB["📊 Centrality Data<br/>• Network Metrics<br/>• Graph Analysis<br/>• 8 Features"]:::data
+        DrugDB["💊 Drug Mappings<br/>• ~6,000 mappings<br/>• DrugBank IDs<br/>• Protein Relations"]:::data
+    end
+
+    subgraph "🌍 External Services"
+        UniProt["🧬 UniProt API<br/>• Protein Sequences<br/>• FASTA Format"]:::external
+        PubChem["🧪 PubChem API<br/>• Chemical Data<br/>• Molecular Properties"]:::external
+        PubMed["📚 PubMed API<br/>• Research Articles<br/>• Literature Search"]:::external
+        ClinicalTrials["🏥 ClinicalTrials.gov<br/>• Trial Information<br/>• Study Data"]:::external
+        Gemini["🤖 Google Gemini AI<br/>• Drug Information<br/>• Natural Language"]:::external
+    end
+
+    %% Connections
+    React --> Flask
+    UI --> Flask
+    Flask --> Feature
+    Flask --> ML
+    Flask --> Drug
+
+    Feature --> ProteinDB
+    ML --> CentralityDB
+    Drug --> DrugDB
+
+    Flask --> UniProt
+    Drug --> PubChem
+    Drug --> PubMed
+    Drug --> ClinicalTrials
+    Drug --> Gemini
+
+    %% Data Flow Styling
+    linkStyle 0 stroke:#3b82f6,stroke-width:3px
+    linkStyle 1 stroke:#3b82f6,stroke-width:3px
+    linkStyle 2 stroke:#10b981,stroke-width:3px
+    linkStyle 3 stroke:#10b981,stroke-width:3px
+    linkStyle 4 stroke:#10b981,stroke-width:3px
+    linkStyle 5 stroke:#f59e0b,stroke-width:2px
+    linkStyle 6 stroke:#f59e0b,stroke-width:2px
+    linkStyle 7 stroke:#f59e0b,stroke-width:2px
+    linkStyle 8 stroke:#ef4444,stroke-width:2px
+    linkStyle 9 stroke:#ef4444,stroke-width:2px
+    linkStyle 10 stroke:#ef4444,stroke-width:2px
+    linkStyle 11 stroke:#ef4444,stroke-width:2px
+    linkStyle 12 stroke:#ef4444,stroke-width:2px

@@ -1,0 +1,72 @@
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#059669',
+    'primaryTextColor': '#ffffff',
+    'primaryBorderColor': '#047857',
+    'lineColor': '#374151',
+    'secondaryColor': '#ecfdf5',
+    'tertiaryColor': '#d1fae5',
+    'background': '#ffffff',
+    'actorBkg': '#3b82f6',
+    'actorTextColor': '#ffffff',
+    'actorLineColor': '#1d4ed8'
+  }
+}}%%
+
+flowchart TD
+    %% Styling
+    classDef startEnd fill:#ef4444,stroke:#dc2626,stroke-width:3px,color:#ffffff,font-weight:bold
+    classDef process fill:#3b82f6,stroke:#2563eb,stroke-width:2px,color:#ffffff,font-weight:bold
+    classDef decision fill:#f59e0b,stroke:#d97706,stroke-width:2px,color:#ffffff,font-weight:bold
+    classDef positive fill:#dc2626,stroke:#b91c1c,stroke-width:2px,color:#ffffff,font-weight:bold
+    classDef negative fill:#10b981,stroke:#059669,stroke-width:2px,color:#ffffff,font-weight:bold
+    classDef external fill:#8b5cf6,stroke:#7c3aed,stroke-width:2px,color:#ffffff,font-weight:bold
+    
+    Start([🚀 Start Analysis]):::startEnd
+    
+    %% Main Flow
+    Start --> SelectProtein["🧬 Select Protein<br/>from Dropdown"]:::process
+    SelectProtein --> FetchSequence["📥 Fetch Protein Sequence<br/>from UniProt API"]:::external
+    FetchSequence --> ExtractFeatures["⚙️ Extract Protein Features<br/>using Pfeature Library"]:::process
+    ExtractFeatures --> GetCentrality["📊 Retrieve Centrality Data<br/>from Database"]:::process
+    GetCentrality --> RunML["🤖 Run ML Model<br/>Prediction"]:::process
+    
+    %% Decision Point
+    RunML --> Decision{"🎯 Prediction<br/>Result?"}:::decision
+    
+    %% Negative Path
+    Decision -->|"❌ NEGATIVE<br/>(Low Risk)"| ShowNegative["✅ Display Low Risk Result<br/>with Healthy Cell Visualization"]:::negative
+    
+    %% Positive Path
+    Decision -->|"⚠️ POSITIVE<br/>(High Risk)"| FetchDrugs["💊 Fetch Drug Repurposing<br/>Data from Database"]:::positive
+    
+    %% Drug Processing Chain
+    FetchDrugs --> QueryGemini["🤖 Query Gemini AI<br/>for Drug Information"]:::external
+    QueryGemini --> FetchPubChem["🧪 Fetch Chemical Data<br/>from PubChem API"]:::external
+    FetchPubChem --> FetchPubMed["📚 Fetch Research Articles<br/>from PubMed API"]:::external
+    FetchPubMed --> FetchTrials["🏥 Fetch Clinical Trials<br/>from ClinicalTrials.gov"]:::external
+    FetchTrials --> ShowPositive["⚠️ Display High Risk Result<br/>with Drug Options & Cancer Visualization"]:::positive
+    
+    %% Convergence
+    ShowNegative --> ShowMetrics["📈 Display Model Performance<br/>Metrics & Visualizations"]:::process
+    ShowPositive --> ShowMetrics
+    
+    ShowMetrics --> End([🏁 End Analysis]):::startEnd
+    
+    %% Styling for arrows
+    linkStyle 0 stroke:#059669,stroke-width:3px
+    linkStyle 1 stroke:#3b82f6,stroke-width:2px
+    linkStyle 2 stroke:#3b82f6,stroke-width:2px
+    linkStyle 3 stroke:#3b82f6,stroke-width:2px
+    linkStyle 4 stroke:#3b82f6,stroke-width:2px
+    linkStyle 5 stroke:#10b981,stroke-width:3px
+    linkStyle 6 stroke:#dc2626,stroke-width:3px
+    linkStyle 7 stroke:#8b5cf6,stroke-width:2px
+    linkStyle 8 stroke:#8b5cf6,stroke-width:2px
+    linkStyle 9 stroke:#8b5cf6,stroke-width:2px
+    linkStyle 10 stroke:#8b5cf6,stroke-width:2px
+    linkStyle 11 stroke:#dc2626,stroke-width:2px
+    linkStyle 12 stroke:#10b981,stroke-width:2px
+    linkStyle 13 stroke:#dc2626,stroke-width:2px
+    linkStyle 14 stroke:#059669,stroke-width:3px
